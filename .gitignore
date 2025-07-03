@@ -1,0 +1,81 @@
+# Expo
+.expo/
+.expo-shared/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local development
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build artifacts
+dist/
+web-build/
+*.apk
+*.aab
+*.ipa
+*.dmg
+*.pkg
+*.app
+ios/build/
+android/build/
+android/app/build/
+
+# OS-specific files
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependency directories
+jspm_packages/
+bower_components/
+ios/Pods/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Testing
+coverage/
+nyc_output/
+
+# Misc
+*.bak
+*.tmp
+*.pid
+*.seed
+*.pid.lock
+*.swo
+*.swp
+*.swn
+*.out
+*.gz
+*.tgz
+*.zip
+*.tar
+*.7z
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.riv
+# Firebase credentials
+serviceAccountKey.json
+firebase-adminsdk-*.json
+google-services.json
+GoogleService-Info.plist
