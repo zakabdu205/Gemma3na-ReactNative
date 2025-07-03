@@ -79,3 +79,4 @@ serviceAccountKey.json
 firebase-adminsdk-*.json
 google-services.json
 GoogleService-Info.plist
+gemma.task

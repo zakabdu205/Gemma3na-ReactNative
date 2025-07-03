@@ -1,0 +1,11 @@
+{
+  "name": "react-native-gemma-bridge",
+  "version": "0.0.1",
+  "description": "A native module to run Gemma on-device.",
+  "react-native": "js/index.ts",
+  "codegenConfig": {
+    "name": "GemmaBridgeSpec",
+    "type": "modules",
+    "jsSrcsDir": "js"
+  }
+}
