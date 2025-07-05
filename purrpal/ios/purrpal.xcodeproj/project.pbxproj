@@ -11,7 +11,7 @@
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		716C7D2F68EA0FC417C37DAD /* libPods-purrpal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8E35E35C4A4B66D16D2B79 /* libPods-purrpal.a */; };
 		83AB6E8FD3E962638D48CD24 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EED9FD4A9FFBAA0EDB58431 /* ExpoModulesProvider.swift */; };
-		AAAF528A2E18BB3900FC2D1D /* gemma.task in Resources */ = {isa = PBXBuildFile; fileRef = AAAF52892E18BB3900FC2D1D /* gemma.task */; };
+		AAAF528E2E18D18300FC2D1D /* gemma.task in Resources */ = {isa = PBXBuildFile; fileRef = AAAF528D2E18D18300FC2D1D /* gemma.task */; };
 		AAFFF20B2E165203002D1695 /* GemmaBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFFF20A2E165203002D1695 /* GemmaBridge.swift */; };
 		AAFFF20C2E165203002D1695 /* GemmaBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFF2092E165203002D1695 /* GemmaBridge.m */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
@@ -28,7 +28,7 @@
 		3EED9FD4A9FFBAA0EDB58431 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-purrpal/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		99A9501B137D64A0C7A7CA59 /* Pods-purrpal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-purrpal.debug.xcconfig"; path = "Target Support Files/Pods-purrpal/Pods-purrpal.debug.xcconfig"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = purrpal/SplashScreen.storyboard; sourceTree = "<group>"; };
-		AAAF52892E18BB3900FC2D1D /* gemma.task */ = {isa = PBXFileReference; lastKnownFileType = file; path = gemma.task; sourceTree = "<group>"; };
+		AAAF528D2E18D18300FC2D1D /* gemma.task */ = {isa = PBXFileReference; lastKnownFileType = file; path = gemma.task; sourceTree = "<group>"; };
 		AAFFF2092E165203002D1695 /* GemmaBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemmaBridge.m; sourceTree = "<group>"; };
 		AAFFF20A2E165203002D1695 /* GemmaBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemmaBridge.swift; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
@@ -70,7 +70,6 @@
 				13CE4F3F254105C4FF76FABA /* PrivacyInfo.xcprivacy */,
 				AAFFF2092E165203002D1695 /* GemmaBridge.m */,
 				AAFFF20A2E165203002D1695 /* GemmaBridge.swift */,
-				AAAF52892E18BB3900FC2D1D /* gemma.task */,
 			);
 			name = purrpal;
 			sourceTree = "<group>";
@@ -94,6 +93,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				AAAF528C2E18D17600FC2D1D /* Assets */,
 				13B07FAE1A68108700A75B9A /* purrpal */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -120,6 +120,14 @@
 				085181C249CCFE58C8A19CF6 /* purrpal */,
 			);
 			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		AAAF528C2E18D17600FC2D1D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AAAF528D2E18D18300FC2D1D /* gemma.task */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
@@ -203,7 +211,7 @@
 			files = (
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				AAAF528A2E18BB3900FC2D1D /* gemma.task in Resources */,
+				AAAF528E2E18D18300FC2D1D /* gemma.task in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
 				DA2897CF107A715E3E3D1DAB /* PrivacyInfo.xcprivacy in Resources */,
 			);
@@ -347,6 +355,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = purrpal/purrpal.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3Z5Y4RX7Y;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -383,6 +392,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = purrpal/purrpal.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3Z5Y4RX7Y;
 				INFOPLIST_FILE = purrpal/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,10 +470,7 @@
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -518,10 +525,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
