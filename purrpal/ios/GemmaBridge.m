@@ -2,31 +2,22 @@
 
 @interface RCT_EXTERN_MODULE(GemmaBridge, NSObject)
 
-RCT_EXTERN_METHOD(generateResponse:(NSString *)prompt
+RCT_EXTERN_METHOD(loadModel:(NSString *)filePath
+                  useGPU:(BOOL)useGPU
                   withResolver:(RCTPromiseResolveBlock)resolve
+                  withRejecter:(RCTPromiseRejectBlock)reject)
+
+RCT_EXTERN_METHOD(unloadModel:(RCTPromiseResolveBlock)resolve
                   withRejecter:(RCTPromiseRejectBlock)reject)
 
 RCT_EXTERN_METHOD(isModelLoaded:(RCTPromiseResolveBlock)resolve
                   withRejecter:(RCTPromiseRejectBlock)reject)
 
-RCT_EXTERN_METHOD(getBackendInfo:(RCTPromiseResolveBlock)resolve
-                  withRejecter:(RCTPromiseRejectBlock)reject)
-
-RCT_EXTERN_METHOD(getPerformanceMetrics:(RCTPromiseResolveBlock)resolve
-                  withRejecter:(RCTPromiseRejectBlock)reject)
-
-RCT_EXTERN_METHOD(configure:(NSDictionary *)options
+RCT_EXTERN_METHOD(generateResponse:(NSString *)prompt
                   withResolver:(RCTPromiseResolveBlock)resolve
                   withRejecter:(RCTPromiseRejectBlock)reject)
 
-RCT_EXTERN_METHOD(generateResponseWithProgress:(NSString *)prompt
-                  withResolver:(RCTPromiseResolveBlock)resolve
+RCT_EXTERN_METHOD(getDeviceInfo:(RCTPromiseResolveBlock)resolve
                   withRejecter:(RCTPromiseRejectBlock)reject)
 
-RCT_EXTERN_METHOD(warmupModel:(RCTPromiseResolveBlock)resolve
-                  withRejecter:(RCTPromiseRejectBlock)reject)
-
-RCT_EXTERN_METHOD(resetMemoryTracking:(RCTPromiseResolveBlock)resolve
-                  withRejecter:(RCTPromiseRejectBlock)reject)
-
-@end 
+@end
