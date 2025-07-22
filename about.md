@@ -1,4 +1,4 @@
-# About PurrPal AI - Gemma Integration
+# About PurrPal AI - Gemma 3na Integration
 
 ## ⚠️ Important Disclaimer
 
@@ -14,13 +14,13 @@
 
 ## Project Overview
 
-PurrPal AI is a comprehensive React Native Expo application that demonstrates how to integrate Google's Gemma language model for on-device AI inference. This project serves as both a functional AI chat application and a complete reference implementation for developers who want to add Gemma AI capabilities to their own React Native projects.
+PurrPal AI is a comprehensive React Native Expo application that demonstrates how to integrate Google's Gemma 3na language models (2B/4B) for on-device AI inference. This project serves as both a functional AI chat application and a complete reference implementation for developers who want to add Gemma 3na AI capabilities to their own React Native projects.
 
 ## What This Project Provides
 
 ### 🚀 Complete Implementation
 
-- **Native Bridge**: Full iOS (Swift) and Android (Kotlin) bridge implementation for Gemma model integration
+- **Native Bridge**: Full iOS (Swift) and Android (Kotlin) bridge implementation for Gemma 3na model integration
 - **React Native Integration**: TypeScript hooks and managers for seamless AI functionality
 - **Performance Monitoring**: Real-time metrics and performance tracking
 - **Chat Interface**: Modern, responsive UI with conversation management
@@ -74,7 +74,7 @@ PurrPal AI is a comprehensive React Native Expo application that demonstrates ho
 ### Features
 
 - **Real-time Metrics**: Token/second rates, inference timing, memory usage
-- **Model Management**: Loading, unloading, and configuration of Gemma models
+- **Model Management**: Loading, unloading, and configuration of Gemma 3na models
 - **Device Detection**: Automatic capability detection (GPU support, memory, etc.)
 - **Error Recovery**: Robust error handling with user-friendly messages
 
@@ -94,18 +94,18 @@ PurrPal AI is a comprehensive React Native Expo application that demonstrates ho
 
 ### Research
 
-- **Performance Benchmarking**: Test Gemma model performance across devices
+- **Performance Benchmarking**: Test Gemma 3na model performance across devices
 - **User Experience Studies**: Evaluate on-device AI interaction patterns
 - **Technical Evaluation**: Assess feasibility of mobile AI implementations
 
 ## Model Setup
 
-### Download Gemma Model
+### Download Gemma 3na Model
 
 1. **Get the Model from Kaggle**
 
-   - Visit [Kaggle Gemma Models or Hugging Face ]
-   - Download the `gemma3na 4b or 2b` model (recommended for mobile)
+   - Visit [Kaggle Gemma 3na Models or Hugging Face ]
+   - Download the `gemma3na 4B or 2B` model (recommended for mobile)
    - Extract the `.task` file from the download
 
 2. **Model Placement**
