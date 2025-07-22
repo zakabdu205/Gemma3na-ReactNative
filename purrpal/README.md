@@ -200,8 +200,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- [Google MediaPipe](https://mediapipe.dev/) for the inference framework
-- [Google AI](https://ai.google.dev/) for Gemma 3na models
+- [Google MediaPipe]([https://mediapipe.dev/](https://ai.google.dev/edge/mediapipe/solutions/guide)) for the inference framework
+- [Google AI]((https://ai.google.dev/gemma/docs/gemma-3n)) for Gemma 3na models
 - [Expo](https://expo.dev/) for the React Native framework
 
 ## Made with ❤️ for the React Native & AI community
