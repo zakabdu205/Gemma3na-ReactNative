@@ -76,6 +76,10 @@ nyc_output/
 *.onnx
 *.bin
 
+# Remove unnecessary assets for GitHub
+purrpal/assets/images/
+purrpal/assets/fonts/
+
 # Debug and keystore files
 *.keystore
 !debug.keystore
