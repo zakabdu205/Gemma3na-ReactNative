@@ -69,16 +69,20 @@ nyc_output/
 *.zip
 *.tar
 *.7z
-*.png
-*.jpg
-*.jpeg
-*.svg
-*.riv
+
+# Model files (too large for git)
+*.task
+*.tflite
+*.onnx
+*.bin
+
+# Debug and keystore files
+*.keystore
+!debug.keystore
+*.jks
+
 # Firebase credentials
 serviceAccountKey.json
 firebase-adminsdk-*.json
 google-services.json
 GoogleService-Info.plist
-gemma.task
-purrpal/ios/Assets/gemma.task
-purrpal/ios/Assets/gemma.task

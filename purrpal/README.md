@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+# PurrPal AI - Gemma Integration
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native Expo app demonstrating on-device AI inference using Google's Gemma model with a custom native bridge.
 
-## Get started
+## Quick Start
 
-1. Install dependencies
-
+1. **Install dependencies**
    ```bash
+   cd purrpal
    npm install
    ```
 
-2. Start the app
+2. **Set up the Gemma model**
+   - Place your `gemma.task` model file in the appropriate directory:
+     - **iOS**: Add to Xcode project bundle
+     - **Android**: Place in `Documents/gemma/` folder
 
+3. **Run the app**
    ```bash
-   npx expo start
+   npx expo run:ios    # for iOS
+   npx expo run:android # for Android
    ```
 
-In the output, you'll find options to open the app in a
+## Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- 🧠 On-device AI inference with Google Gemma
+- 📱 Cross-platform (iOS/Android) support
+- ⚡ Real-time performance metrics
+- 💬 Chat interface with conversation history
+- 🔧 Model management and configuration
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Bridge Integration
 
-## Get a fresh project
+This project includes a complete native bridge implementation for integrating Gemma models into React Native apps. The bridge provides:
 
-When you're ready, run:
+- Model loading/unloading
+- Text generation with metrics
+- Performance monitoring
+- Device capability detection
 
-```bash
-npm run reset-project
-```
+## Requirements
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- React Native development environment
+- Gemma model file (`gemma.task`)
+- iOS 13+ or Android API 21+
